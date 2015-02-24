@@ -1,0 +1,17 @@
+Index: app.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app.py	(date 1424791496000)
++++ app.py	(revision )
+@@ -16,7 +16,7 @@
+ app.secret_key = os.urandom(24)
+ 
+ 
+- 
++
+ def is_cislo1_valid(cislo1):
+     if cislo1 > 100 and cislo1<1000:
+         return True
+\ No newline at end of file

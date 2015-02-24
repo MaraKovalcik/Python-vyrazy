@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+	<h3 class="text-muted">Flask validace</h3>
+      </div>
+      <hr/>
+      <h3>Flask validace</h3>
+      <table class="table">
+	<tbody>
+	  <tr>
+	    <td>Číslo 1</td>
+	    <td>{{ data.cislo1 }}</td>
+	  </tr>
+	  <tr>
+	    <td>Číslo 2</td>
+	    <td>{{ data.cislo2 }}</td>
+	  </tr>
+	  <tr>
+	    <td>Nasobek</td>
+	    <td>{{ data.vysledek1}}</td>
+	  </tr>
+	  <tr>
+	    <td>Zbytek</td>
+	    <td>{{ data.vysledek2}}</td>
+	  </tr>
+
+	</tbody>
+      </table>
+    </div>
+  </body>
+</html>
